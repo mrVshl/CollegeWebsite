@@ -1,0 +1,58 @@
+
+.main-card{
+    display: flex;
+    box-shadow:1px 1px 4px rgb(0, 0, 0, 0.2);
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descr{
+    flex: 3;
+}
+
+.right .descr h1{
+    font-size: 20px;
+    text-align: start;
+    padding: 10px 0 0 10px;
+    margin-top: 0px;
+}
+
+.right .descr p{
+    padding: 5px 10px 5px 10px;;
+}
+
+
+.link{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.link p{
+    margin-right: 20px;
+    color: rgb(105, 191, 249);
+   transition: all .4s ease;
+}
+
+.right .link p:hover{
+    cursor: pointer;
+    color:rgb(75, 179, 249) ;
+    font-weight: bold;
+}
+
+.main-card .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-card .img{
+    height: 100px;
+    width: 150px;
+}

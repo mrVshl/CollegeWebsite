@@ -1,0 +1,77 @@
+.seprator{
+    height: 5px;
+    background-color: rgb(102, 102, 102);
+}
+
+.footer{
+    background-color: rgb(102, 102, 102);
+}
+
+.footer .interaction{
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    list-style: none;
+    padding: 15px 158px;
+    background-color: white;
+}
+
+.interaction li{
+    list-style: none;
+}
+
+.interaction li a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.interaction li a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(96, 95, 95);
+}
+
+.interaction span{
+    color: antiquewhite;
+    font-weight: bold;
+
+}
+
+.down-container{
+    background-color: white;
+    display: flex;
+    padding: 20px 158px;
+    margin: 1px 0px;
+}
+
+.down-container .social li{
+    margin-left: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-out;
+}
+
+.down-container .social li:hover{
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-container .text p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: Oswald, sans-serif;
+}
